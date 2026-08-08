@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# Keep .gitignore itself
+!.gitignore
+
+# Keep LaTeX sources
+!*.tex
+!*.bib
+
+# Keep output PDF
+!build/
+!build/Trace.pdf
+
+# Keep selected project files
+!README.md
+!LICENSE
+
+# Keep the drawings directory, with files directly inside, but ignore directories below
+!drawings/
+!drawings/*
+drawings/*/
