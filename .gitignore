@@ -6,7 +6,7 @@
 
 # Keep CPlanes python script
 !python/
-!python/*.py
+!python/CPlanes.py
 
 # Keep selected project files
 !README.md
