@@ -4,19 +4,23 @@
 # Keep .gitignore itself
 !.gitignore
 
-# Keep LaTeX sources
-!*.tex
-!*.bib
-
-# Keep output PDF
-!build/
-!build/Trace.pdf
+# Keep CPlanes python script
+!python/
+!python/*.py
 
 # Keep selected project files
 !README.md
 !LICENSE
 
-# Keep the drawings directory, with files directly inside, but ignore directories below
-!drawings/
-!drawings/*
-drawings/*/
+## Keep LaTeX sources
+#!*.tex
+#!*.bib
+#
+## Keep output PDF
+#!build/
+#!build/Trace.pdf
+#
+## Keep the drawings directory, with files directly inside, but ignore directories below
+#!drawings/
+#!drawings/*
+#drawings/*/
